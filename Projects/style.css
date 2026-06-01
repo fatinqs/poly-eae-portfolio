@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+p { color: #322F2F; }
+h1 { color: #A52A2A; }
+h2 { color: #3A543C; }
+p, h1, h2 { font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+
+#main { 
+	border: 2px;
+	padding: 0;
+}
+
+.myimage { width: 200px }
+
+body {
+	background-color: #E4E2DD;
+}
+
+.container{
+	margin: 0;
+	height: 60px;
+	background-color: #E4E2DD;
+	border-style: inset;
+}
+
+.logo{
+	float: left;
+}
+
+nav{
+	text-align: center;
+	padding-top: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 250px;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+nav a{
+	display: block;
+	color: #A52A2A;
+	text-align:center;
+	width: 100px;
+	padding: 18px 18px;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+nav li a:hover{
+    background-color: transparent;
+    color: #3A543C;
+    font-weight: bold;
+}
+
+.center{
+	text-align:center;
+}
+
+.categories, .self-help, .non-fiction, .fiction, .novel, .biography, .poetry{
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height:30px;
+}
+
+.self-help:hover{
+	color:#739E77;
+}
+
+.non-fiction:hover{
+	color:#565A79;
+}
+
+.biography:hover{
+	color:#ABAD2F;
+}
+
+.fiction:hover{
+	color:#644568;
+}
+
+.novel:hover{
+	color:#719EB6;
+}
+
+.poetry:hover{
+	color:#715746;
+}
+
+.offer{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.color{
+	color:#A52A2A;
+	line-height:15px;
+}
+
+.color:hover{
+    color: #3A543C;
+	font-weight: bold;
+}
+
+.aboutus{
+	text-align:left;
+	color: #322F2F;
+	line-height: 2.0;
+}
+
+.header3{
+	text-align:left;
+	font-weight: bold;
+	color: #3A543C;
+	line-height: 0.5;
+	font-size: 18px;
+}
+
+.sogt{
+	font-weight: bold;
+	color: #A52A2A;
+	font-size: 15px;
+	text-transform:uppercase;
+	text-align: left;
+}
+
+.contactform{
+	border-style: inset;
+	padding: 5px 25px;
+	line-height: 20px;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.name {
+	border-style: groove;
+	padding: 10px 10px;
+	color: #B1B1B1;
+}
+
+.phonenumber {
+	border-style: groove;
+	padding: 10px 10px;
+	color: #B1B1B1;
+}
+
+.email {
+	border-style: groove;
+	padding: 10px 10px;
+	color: #B1B1B1;
+}
+
+.message {
+	border-style: groove;
+	padding: 10px 10px;
+	height: 100px;
+	color: #B1B1B1;
+}
+
+.submitbutton{
+	font-weight: bold;
+	font-size: 17px;
+	color:#3A543C;
+}
+
+.submitbutton:hover{
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.reachus {
+	border-style: inset;
+	padding: 0px;
+	line-height: 20px;
+	border: hidden;
+}
+
+.ruemail {
+	border-style: outset;
+	line-height: 20px;
+	padding: 10px 10px;
+	text-align:center;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.ruphone {
+	border-style: outset;
+	line-height: 20px;
+	padding: 10px 10px;
+	text-align:center;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.ruaddress{
+	border-style: outset;
+	line-height: 20px;
+	padding: 10px 10px;
+	text-align:center;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.faqs{
+	line-height: 20px;
+}
+
+.table{
+	padding: 10px;
+	text-align: center;
+}
+
+.product{
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+}
+
+.product1{
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 35px;
+	font-size: 26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #728F77;
+}
+
+.product2{
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 35px;
+	font-size: 26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #72858F;
+}
+
+.product3{
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 35px;
+	font-size: 26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #151616;
+}
+
+.product4{
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 35px;
+	font-size: 26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #534E46;
+}
+
+.product5{
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 35px;
+	font-size: 26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #903525;
+}
+
+.tagline{
+	text-transform: capitalize;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.price{
+	font-size: 16px;
+	text-align: center;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.money1:hover{
+	color: #6f9755;
+}
+
+.money2:hover{
+	color: #72858F;
+}
+
+.money3:hover{
+	color: #8C8F8F;
+}
+
+.money4:hover{
+	color: #b5a395;
+}
+
+.money5:hover{
+	color: #a66b4e;
+}
+
+.about{
+	text-align: center;
+	font-size: 14px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.next{
+	text-align:center;
+}
+
+.test{
+	text-align:center;
+}
+
+.more{
+	font-size: 15px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-style: italic;
+}
+
+.button{
+	font-size: 12.5px;
+}
+
+.button:hover{
+    color: #A52A2A;
+	font-weight: bold;
+}
+
+.reviews{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 18px;
+	font-style: italic;
+}
+
+footer{
+	border-style: inset;
+	height: 130px;
+	background-color: #E4E2DD;
+}
+
+.rights {
+	text-align: center;
+	margin-top: 35px;
+	font-size: 15px;
+}
+
+.rights:hover{
+	color: #3A543C;
+	background-color: transparent;
+}
+
+#footer-nav{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#footer-nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 200px;
+	overflow: hidden;
+}
+
+#footer-nav li{
+	float: left;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+#footer-nav a{
+	display: block;
+	color: #A52A2A;
+	text-align:center;
+	width: 130px;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+#footer-nav li a:hover{
+    color: #3A543C;
+	font-weight: bold;
+	background-color: transparent;
+}
