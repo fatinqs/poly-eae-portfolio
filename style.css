@@ -310,8 +310,9 @@ html{
 .hero-text-block{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 350px;
+    justify-content: center;
+    gap: 20px;
+    min-height: 350px;
     max-width: 795px;
 }
 
