@@ -313,11 +313,11 @@ html{
     justify-content: space-between;
     height: 350px;
     max-width: 795px;
-}
+}
 
 .hero-text-block h2 {
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 2.0;
     margin: 10px;
 }
 
