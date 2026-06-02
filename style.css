@@ -310,15 +310,14 @@ html{
 .hero-text-block{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    min-height: 350px;
+    justify-content: space-between;
+    height: 350px;
     max-width: 795px;
-}
+}
 
-.hero-text-block h2{
-    font-size: 22px;
-    line-height: 2.0;
+.hero-text-block h2 {
+    font-size: 16px;
+    line-height: 1.5;
     margin: 10px;
 }
 
