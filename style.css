@@ -12,7 +12,9 @@ h1 {
 	display: inline-block;
 	background: linear-gradient(-45deg, #1a1a1a 25%, #7a7a7a 40%, #ffffff 50%, #7a7a7a 60%, #1a1a1a 75%);
 	background-size: 400% 100%;
+    background-clip: text;
 	-webkit-background-clip: text;
+    color: transparent;
 	-webkit-text-fill-color: transparent;
 	animation: liquidFlow 6s ease-in-out infinite;
 	transform: scaleX(1.4);
@@ -315,10 +317,11 @@ html{
     max-width: 795px;
 }
 
-.hero-text-block h2 {
-    font-size: 22px;
-    line-height: 2.0;
-    margin: 10px;
+.hero-text-block h2{
+    font-size: 16.5px;
+    line-height: 2.15;
+    margin: 12px;
+    margin-bottom: 0;
 }
 
 .hero-badges, .projects-view, .certificates-view{
